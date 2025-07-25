@@ -116,7 +116,8 @@ ul li a {
     margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    row-gap: 30px;
+    gap: 30px;
+    justify-content: center;
 }
 
 .cart {
@@ -150,7 +151,7 @@ ul li a {
 }
 
 .buy:hover {
-    background-color: #e76b23;
+    background-color: #eb7a39;
     transition-duration: 0.3s;
 }
 
@@ -193,5 +194,11 @@ ul li a {
     .plant-description {
         margin: 0 -80px;
         margin-top: 16px;
+    }
+
+    /**cart-style**/
+
+    .cart-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
