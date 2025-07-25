@@ -240,4 +240,16 @@ ul li a {
     .cart-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .plant-lover {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+    .fri-img {
+        display: none;
+    }
+
+    .plant-lover-content {
+        margin: -50px -80px;
+    }
 }
