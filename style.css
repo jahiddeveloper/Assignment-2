@@ -57,6 +57,7 @@ ul li a {
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
+    margin-bottom: 120px;
 }
 
 .banner-title {
@@ -79,6 +80,78 @@ ul li a {
     max-width: 570px;
     font-size: 1.37rem;
     margin-top: 13px;
+    color: #252432;
+}
+
+
+/**plant**/
+
+.plant {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.plant-title {
+    font-size: 3.12rem;
+    font-weight: 700;
+    text-align: center;
+}
+.part-4 {
+    color: black;
+}
+.part-5 {
+    color: #E95A08;
+}
+
+.plant-description {
+    font-size: 1.37rem;
+    color: #252432;
+    max-width: 888px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 16px;
+}
+
+/**cart-style**/
+.cart-container {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 30px;
+}
+
+.cart {
+    width: 270px;
+}
+
+.name {
+    font-size: 1.37rem;
+    font-weight: 500;
+    color: #111111;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.price {
+    font-size: 1.37rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.buy {
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    padding: 20px 80px;
+    margin-bottom: 2px;
+    margin-top: 50px;
+    background-color: #E95A08;
+    cursor: pointer;
+}
+
+.buy:hover {
+    background-color: #e76b23;
+    transition-duration: 0.3s;
 }
 
 
@@ -96,5 +169,29 @@ ul li a {
     }
     #hidden {
         display: none;
+    }
+
+    /**banner**/
+    .banner {
+        flex-direction: column-reverse;
+    }
+    .hero-img {
+        margin: 28 auto;
+    }
+
+    .banner-content {
+        margin-left: 2px;
+        text-align: start;
+    }
+
+    /**plant**/
+
+    .plant-title {
+        text-align: center;
+        margin: 0 -80px;
+    }
+    .plant-description {
+        margin: 0 -80px;
+        margin-top: 16px;
     }
 }
