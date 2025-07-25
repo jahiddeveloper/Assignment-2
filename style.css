@@ -387,6 +387,11 @@ ul li a {
     }
 
     .deal-img-title-3 {
-        
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+    .now {
+        font-size: 1rem;
+        font-weight: 600;
     }
 }
