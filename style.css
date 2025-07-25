@@ -155,6 +155,45 @@ ul li a {
     transition-duration: 0.3s;
 }
 
+/***lover-style***/
+
+
+.plant-lover {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px 100px;
+    gap: 60px;
+}
+
+.sec-img {
+    border-radius: 5px;
+}
+
+.ul-2 {
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 20px;
+}
+.li-2{
+    color: #252432;
+}
+
+.fri-img {
+    position: absolute;
+    height: 286px;
+    width: 286px;
+    margin-left: -220px;
+    margin-top: -400px;
+}
+
+.lover-title {
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+
 
 
 
