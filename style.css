@@ -308,6 +308,59 @@ ul li a {
 }
 
 
+/**bunch**/
+.bunch {
+    background-image: url("assets/news-letter-bg.png");
+    background-position: center;
+    background-size: cover;
+    height: 533px;
+    width: 100%;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bunch-title {
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+input {
+    margin-top: 38px;
+    padding: 15px 540px 15px 20px;
+    color: #252432;
+    display: inline-block;
+    outline: none;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.submit {
+    font-size: 1rem;
+    font-weight: 600px;
+    color: white;
+    padding: 19px 53px;
+    background-color: #E95A08;
+    cursor: pointer;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.submit:hover {
+    background-color: #eb7a39;
+    transition-duration: 0.3s;
+}
+
+
+
+
 
 
 
@@ -393,5 +446,23 @@ ul li a {
     .now {
         font-size: 1rem;
         font-weight: 600;
+    }
+
+    /***bunch**/
+
+    .bunch {
+        background-image: url(assets/news-letter-bg.png);
+        width: 100%;
+        height: 276px;
+    }
+    .bunch-title {
+        text-align: center;
+        font-size: 1.25rem;
+    }
+    #input {
+        padding-right: 100px;
+    }
+    .submit {
+        padding: 10px 15px;
     }
 }
